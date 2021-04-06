@@ -1,0 +1,35 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+/* Menu */
+
+
+.menu {
+    border-right: 1px solid;
+    border-color: #c6c6c6;
+    height: 100%;
+    min-height: 100vh;
+ }
+
+.has-footer-fixed-bottom {
+    height: 100vh;
+
+  }
+  .footer-fixed-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+  }
